@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="94f5252253b241c19402336db0218d3b" Name="Diagram1">
+        <EntityTypeShape EntityType="DatingDatabaseModel.Friend" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatingDatabaseModel.FriendRequest" Width="1.5" PointX="3" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatingDatabaseModel.Message" Width="1.5" PointX="3" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatingDatabaseModel.User" Width="1.5" PointX="0.75" PointY="3.125" IsExpanded="true" />
+        <AssociationConnector Association="DatingDatabaseModel.FK__Friend__FriendID__182C9B23" ManuallyRouted="false" />
+        <AssociationConnector Association="DatingDatabaseModel.FK__Friend__UserID__173876EA" ManuallyRouted="false" />
+        <AssociationConnector Association="DatingDatabaseModel.FK__FriendReq__Recie__1A14E395" ManuallyRouted="false" />
+        <AssociationConnector Association="DatingDatabaseModel.FK__FriendReq__Sende__1920BF5C" ManuallyRouted="false" />
+        <AssociationConnector Association="DatingDatabaseModel.FK__Message__Recieve__1BFD2C07" ManuallyRouted="false" />
+        <AssociationConnector Association="DatingDatabaseModel.FK__Message__SenderI__1B0907CE" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
